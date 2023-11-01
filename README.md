@@ -25,4 +25,4 @@ in your main CSS file.
 
 ## License
 
-Licensed under the MIT license ([LICENSE-MIT](https://raw.githubusercontent.com/dtrifuno/nord-prism-theme/main/LICENSE-MIT) or <https://opensource.org/licenses/MIT>).
+Licensed under the MIT license ([LICENSE](https://raw.githubusercontent.com/dtrifuno/nord-prism-theme/main/LICENSE) or <https://opensource.org/licenses/MIT>).
