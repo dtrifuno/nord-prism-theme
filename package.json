@@ -9,6 +9,13 @@
     "url": "https://github.com/dtrifuno/nord-prism-theme/issues"
   },
   "homepage": "https://github.com/dtrifuno/nord-prism-theme#readme",
+  "keywords": [
+    "nord",
+    "nord-theme",
+    "prism",
+    "prismjs",
+    "syntax-highlighting"
+  ],
   "files": [
     "prism-nord.css"
   ]
