@@ -1,0 +1,134 @@
+/**
+ * Nord theme for `prism.js`
+ * Based on https://www.nordtheme.com/
+ * @author Darko Trifunovski (@dtrifuno)
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #d8dee9;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre[class*='language-']::-moz-selection,
+pre[class*='language-'] ::-moz-selection,
+code[class*='language-']::-moz-selection,
+code[class*='language-'] ::-moz-selection,
+pre[class*='language-']::selection,
+pre[class*='language-'] ::selection,
+code[class*='language-']::selection,
+code[class*='language-'] ::selection {
+  background: #3b4252;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background: #242933;
+}
+
+.token.url,
+.token.namespace,
+.token.constant,
+.token.symbol,
+.token.tag {
+  color: #d8dee9
+}
+
+.token.comment {
+  color: #a6aebb;
+}
+
+.token.attr-name,
+.token.class-name {
+  color: #8fbcbb;
+}
+
+.token.function,
+.token.property,
+.token.selector {
+  color: #88c0d0;
+}
+
+.token.operator,
+.token.punctuation,
+.token.boolean,
+.token.important,
+.token.builtin,
+.token.keyword {
+  color: #81a1c1; 
+}
+
+.token.prolog,
+.token.doctype {
+  color: #5e81ac;
+}
+
+.token.deleted {
+  color: #bf616a;
+}
+
+.token.cdata,
+.token.atrule {
+  color: #d08770; 
+}
+
+.token.char,
+.token.entity,
+.token.regex-source {
+  color: #ebcb8b;
+}
+
+.token.string,
+.token.token.attr-value,
+.token.inserted {
+  color: #a3be8c;
+}
+
+.token.number {
+  color: #cca0c4;
+}
+
+.language-rust > .token.class-name {
+  color: #d8dee9;
+}
+
+.language-rust > .token.operator {
+  color: #eceff4;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.3em;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}

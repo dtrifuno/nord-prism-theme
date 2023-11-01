@@ -1,0 +1,15 @@
+{
+  "name": "nord-prism-theme",
+  "version": "0.1.0",
+  "description": "An unofficial theme for the Prism syntax highlighting library based on the Nord color palette.",
+  "author": "Darko Trifunovski <dtrifuno@gmail.com>",
+  "license": "MIT",
+  "repository": "github:dtrifuno/nord-prism-theme",
+  "bugs": {
+    "url": "https://github.com/dtrifuno/nord-prism-theme/issues"
+  },
+  "homepage": "https://github.com/dtrifuno/nord-prism-theme#readme",
+  "files": [
+    "prism-nord.css"
+  ]
+}
